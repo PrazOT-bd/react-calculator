@@ -1,0 +1,30 @@
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    
+  }
+  
+  button {
+    padding: 10px;
+    border: 1px solid #979292;
+    cursor: pointer;
+    height: 100%;
+    box-shadow: 0px 1px #928686;
+    background-color: #f0f0f0d3;
+}
+
+  button.operation {
+    background-color: #53b48c;
+    color: hsl(0, 52%, 96%);
+  }
+  
+  button.clear {
+    background-color: #351a47;
+    color: #fff;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
